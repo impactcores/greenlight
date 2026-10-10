@@ -1,4 +1,25 @@
+# --- Godot ---------------------------------------------------------------
+# Den Repo-Ordner kann man direkt als Godot-Projekt öffnen und testen.
+# Alles, was Godot dafür anlegt, bleibt lokal und kommt nicht ins Repository.
 .godot/
+project.godot
+export_presets.cfg
 *.import
+icon.svg
+icon.svg.import
+
+# Exporte und Test-Builds
 build/
+export/
+*.pck
+*.zip
+
+# Eigene Testszenen, Notizen usw. – alles in _local/ bleibt nur bei dir
+_local/
+
+# --- System ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
 *.tmp
+*~
