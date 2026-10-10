@@ -14,6 +14,9 @@ export/
 *.pck
 *.zip
 
+# Andere Plugins, die nur lokal zum Entwickeln installiert sind (z. B. godot-ai)
+addons/godot_ai/
+
 # Eigene Testszenen, Notizen usw. – alles in _local/ bleibt nur bei dir
 _local/
 
