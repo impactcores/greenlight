@@ -41,7 +41,7 @@ func _ready() -> void:
 	box.add_child(_title)
 	_notes = Label.new()
 	_notes.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	_notes.add_theme_font_size_override("font_size", 13)
+	_notes.add_theme_font_size_override("font_size", int(13 * EditorInterface.get_editor_scale()))
 	box.add_child(_notes)
 	var row := HBoxContainer.new()
 	box.add_child(row)
